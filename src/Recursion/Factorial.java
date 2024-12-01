@@ -3,7 +3,7 @@ package Recursion;
 public class Factorial {
 
 	static int fun(int x) {
-		if(x<=0) {
+		if(x==0) {
 			return 1;
 		}
 		return fun(x-1)*x;
